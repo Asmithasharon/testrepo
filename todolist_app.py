@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-
+sg.theme('DarkAmber')
 def add_task(values):
     task = values['taskname']
     todolist.append(task)
